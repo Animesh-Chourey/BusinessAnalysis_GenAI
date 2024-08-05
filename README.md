@@ -9,7 +9,7 @@ The end goal is to improve customer satisfaction by examining customer complaint
 ### Steps:
 * Install the environment dependencies and the module and libraries. Ensure to store the API key and ORG ID in a .env file.
 * Convert each row of the data in the following format to be able to use it for fine-tuning purpose.
-![](JSON format.png)
+![](JSON_format.png)
 * Fine-tuning the model (GPT-3.5) by training it on the data:
     * Importing the training data and creating the fine-tuning job.
     * Train the new fine-tuned model created in the step above.
